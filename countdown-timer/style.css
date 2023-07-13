@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./snowfield.jpg);
+    background-size: cover;
+    background-position: center center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin:0;
+}
+
+h1{
+    font-weight: normal;
+    font-size:4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size:6rem;
+    line-height: 1;
+    margin:0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
+
+.input-description{
+    font-size: 1.4rem;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.input-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.day-description{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
+
+.input-daydesc-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 1.1rem;
+    width:400px;
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.input-daydesc{
+    background:rgba(255,255,255,0.3);
+    border: 2px solid white;
+    border-radius : 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.input-button{
+    background-color: white;
+    border-radius: 50%;
+    height:100%;
+    aspect-ratio:1;
+
+    position:absolute;
+    right: 0;
+}
